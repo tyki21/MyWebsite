@@ -1,11 +1,55 @@
+
+/*navigation css*/
+#tabs {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	margin-top: 10px;
+}
+	
+#tabs li {
+list-style-type: none;
+}
+
+#tabs a {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #596365;
+}
+
+#tabs a:hover {
+	text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+/*html css*/
 body {
-    background-color: orange;
+    background-color: #FFFFFF;
     margin: 70px;
+    border-right-style: solid;
+    padding-right:10px
 }
 
 h1 {
-    color: white;
-    text-align: center;
+    color: black;
+
+}
+
+li{
+	list-style: none;
 }
 
 h3{
@@ -16,6 +60,7 @@ p {
     font-family: Times ;
  }
 
+/*table css*/
  td {
 
  }
@@ -23,3 +68,18 @@ p {
  table{
  	margin-left: 100px;
  }
+
+
+/*index page css*/
+#welcome{
+	width: 50%;
+	text-align: left;
+}
+
+/*education/ page css*/
+ #past{
+
+ 	border-top-style: solid;
+ }
+
+ /*work-experience css s*/
