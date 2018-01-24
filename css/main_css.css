@@ -71,7 +71,7 @@ p {
 
 
 /*index page css*/
-#welcome{
+.intro{
 	width: 50%;
 	text-align: left;
 }
